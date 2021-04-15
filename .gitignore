@@ -1,0 +1,22 @@
+# #号代表注释
+# Ignore everything using star
+*
+
+# Subdirectories 
+!*/
+
+# But not these files...
+!.gitignore
+!*.c
+!*.h
+!*.s
+!*.pdf
+!*.md
+!*.lib
+!*.dbgconf
+!*.txt
+!JLinkSettings.ini
+!Project.uvguix.86180
+!Project.uvoptx
+!Project.uvprojx
+!startup_stm32f334x8.lst
